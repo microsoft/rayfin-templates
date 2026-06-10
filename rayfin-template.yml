@@ -1,0 +1,14 @@
+apiVersion: v1
+metadata:
+  name: rayfin-templates
+  displayName: Rayfin Templates
+  description: Official Rayfin project templates for scaffolding new applications
+  version: "1.0.0"
+  tags:
+    - rayfin
+    - scaffolding
+    - starter
+entries:
+  - name: todoapp
+    path: templates/todo-app
+    description: End-to-end Fabric-authenticated todo CRUD with Rayfin data model and per-user row-level security
